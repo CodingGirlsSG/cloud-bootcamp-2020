@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
-    author: `Billy Jacoby`,
+    title: `CodingGirls Cloud Computing Bootcamp 2020`,
+    description: `CodingGirls Cloud computing Bootcamp 2020, sign up now!`,
+    author: `CodingGirls`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,7 +25,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#20232a`,
         theme_color: `#20232a`,
-        display: `minimal-ui`,
+        display: `minimal-ui`
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

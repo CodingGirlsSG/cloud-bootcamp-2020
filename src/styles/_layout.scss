@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 div.main {
   min-height: 100vh;
+  width: 100% !important;
   padding-bottom: 60px;
 }
 
@@ -35,4 +40,138 @@ a.link-no-style {
       text-align: center;
     }
   }
+}
+
+/* font settings
+  ============================= */
+
+body {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+/* Small devices (Phones, 600pxand down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 46px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+  h1 {
+      font-size: 54px;
+  }
+}
+
+h2,h3 {
+  color: $cg-blue;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+/* background settings
+  ============================= */
+
+.bg-grey {
+  background: $cg-grey;
+}
+
+.bg-blue {
+  background: $cg-blue;
+}
+
+#landing-container {
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  @extend .bg-blue;
+}
+
+#landing-header {
+  z-index: -1;
+  top: 55%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  white-space: pre-line;
+  animation: gentleFadeIn 2s;
+}
+
+#landing-down-icon {
+  z-index: 100;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  animation: float 2s ease-in-out infinite;
+}
+
+#landingbg {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/GetStartedTransparent.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  animation: gentleFadeInLeft 2s;
+}
+
+#prerequisites {
+  background-image: url("../images/WhoIsItFor.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whycloudbg {
+  background-image: url("../images/WhyCloud.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mentorsbg {
+  background-image: url("../images/Mentors-01.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 135% 100%;
+}
+
+/* others
+  ============================= */
+
+
+.prerequisites {
+  & ul {
+    padding-left: 20px;
+  }
+  & li {
+    margin-bottom: 16px;
+  }
+}
+
+.timebadge {
+  background-color: $cg-blue;
+  width: 86px
+}
+
+.timeline {
+  min-height: 30px;
+  background-image: linear-gradient($cg-blue, #FFFFFF);
+  background-size: 3px 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

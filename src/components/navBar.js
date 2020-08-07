@@ -1,40 +1,50 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
+import CGLogo from "../images/CG3.png"
 
 const CustomNavbar = ({ pageInfo }) => {
-  console.log(pageInfo)
+
+
   return (
     <>
-      <Navbar variant="dark" expand="lg" id="site-navbar">
-        {/* <Container> */}
+      <Navbar bg="light" variant="light" expand="lg" id="site-navbar">
         <Link to="/" className="link-no-style">
-          <Navbar.Brand as="span">Gatsby React Bootstrap</Navbar.Brand>
+          <Navbar.Brand as="span">
+            <img
+              alt=""
+              src={CGLogo}
+              height="30"
+              className="d-inline-block align-top"
+            />
+          </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
-            <Link to="/page-2" className="link-no-style">
-              <Nav.Link as="span" eventKey="page-2">
-                Page 2
+        <Navbar.Collapse id="basic-navbar-nav" >
+          <Nav activeKey={pageInfo && pageInfo.pageName} className="ml-auto">
+            <Link to="#about" className="link-no-style">
+              <Nav.Link as="span" eventKey="about">
+                About The Program
+              </Nav.Link>
+            </Link>
+            <Link to="#prerequisites" className="link-no-style">
+              <Nav.Link as="span" eventKey="about">
+                Prerequisites
+              </Nav.Link>
+            </Link>
+            <Link to="#schedule" className="link-no-style">
+              <Nav.Link as="span" eventKey="background">
+                Schedule
+              </Nav.Link>
+            </Link>
+            <Link to="#applynow" className="link-no-style">
+              <Nav.Link as="span" eventKey="timeline">
+                Apply Now
               </Nav.Link>
             </Link>
           </Nav>
-          <Nav className="ml-auto">
-            <Form inline onSubmit={e => e.preventDefault()}>
-              <Form.Group>
-                <FormControl
-                  type="text"
-                  placeholder="Fake Search"
-                  className="mr-2"
-                />
-              </Form.Group>
-              <Button>Fake Button</Button>
-            </Form>
-          </Nav>
+
         </Navbar.Collapse>
-        {/* </Container> */}
       </Navbar>
     </>
   )
