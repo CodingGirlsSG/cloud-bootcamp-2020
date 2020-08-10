@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Prerequisites = () => (
   <>
     <Container fluid className="px-0 py-5 prerequisites" id="prerequisites">
-      <Row className="p-3 justify-content-center mx-5">
+      <Row className="py-5 justify-content-center mx-5">
         <Col sm={8} md={4} lg={4} className="d-flex p-2" style={{ minWidth: '250px' }}>
           <ScrollAnimation animateIn="fadeInUp" className="d-flex">
             <Card className="flex-fill shadow d-flex" >

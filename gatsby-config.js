@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/cloud-bootcamp-2020",
   siteMetadata: {
     title: `CodingGirls Cloud Computing Bootcamp 2020`,
     description: `CodingGirls Cloud computing Bootcamp 2020, sign up now!`,

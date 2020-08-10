@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import Correct from "../images/correct.svg"
 
 const Mentors = () => (
-  <Container fluid className="px-0 py-5 bg-grey" id="mentorsbg">
+  <Container fluid className="px-0 py-5" id="mentorsbg">
     <Row className="m-3 justify-content-center">
 
       <Col sm={12} md={8} className="d-flex flex-column align-self-center text-center">
@@ -14,15 +14,21 @@ const Mentors = () => (
         <Row className="m-5">
           <Col sm={12} md={4} className="d-flex flex-column align-self-center text-center mb-4">
             <img src={Correct} height="150px" alt="tick icon" className="mb-3" />
-            <span>NAME NAMENAME</span>
+            <span>NAME NAMENAME (HYPERLINK TO LINKEDIN)</span>
+            <span>JOB TITLE</span>
+            <span>COMPANY</span>
           </Col>
           <Col sm={12} md={4} className="d-flex flex-column align-self-center text-center mb-4">
             <img src={Correct} height="150px" alt="tick icon" className="mb-3" />
-            <span>NAME NAMENAME</span>
+            <span>NAME NAMENAME (HYPERLINK TO LINKEDIN)</span>
+            <span>JOB TITLE</span>
+            <span>COMPANY</span>
           </Col>
           <Col sm={12} md={4} className="d-flex flex-column align-self-center text-center mb-4">
             <img src={Correct} height="150px" alt="tick icon" className="mb-3" />
-            <span>NAME NAMENAME</span>
+            <span>NAME NAMENAME (HYPERLINK TO LINKEDIN)</span>
+            <span>JOB TITLE</span>
+            <span>COMPANY</span>
           </Col>
         </Row>
       </Col>
