@@ -14,9 +14,9 @@ import Applynow from "./applynow"
 import Faq from "./faq"
 
 const IndexPage = () => (
-  <Layout pageInfo={{ pageName: "Landing Page" }}>
+  <Layout pageInfo={{ pageName: "Code with Cloud" }}>
     <SEO title="Code with Cloud" />
-    <LandingBanner />
+    <Landing />
     <Summary />
     <Prerequisites />
     <WhyCloud />
