@@ -31,7 +31,7 @@ const Prerequisites = () => (
                 <Card.Text as="div">
                   <ul>
                     <li>Perseverance, self-learning capability, and interest in technology</li>
-                    <li>Complete the one-week introductory course, or pass our quiz</li>
+                    <li>Complete the one-week introductory course, <b><i>or</i></b> pass our quiz</li>
                     <li>Comfortable with command line</li>
                     <li>Ability to commit to the full 8 week programme, with an estimated 12-16 hours needed per week</li>
                   </ul>

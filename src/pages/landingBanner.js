@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { Container } from "react-bootstrap";
 import DownArrow from "../images/down-arrow.svg";
 
@@ -9,12 +9,12 @@ const LandingBanner = () => (
 
       {/* for large screens */}
       <h1 className="d-none d-md-block" id="landing-header">
-        Get ahead with<br />&nbsp;&nbsp;&nbsp;Cloud Certification
+        Code With Cloud <br /><span style={{ fontSize: "36px", marginLeft: '16px' }}>- Learn the #No.1 in-demand skill in Today's Workforce</span>
       </h1>
 
       {/* for small screens */}
       <h1 className="d-block d-md-none text-center" id="landing-header">
-        Get ahead with Cloud Certification
+        Code With Cloud -  Learn the #No.1 in-demand skill in Today's Workforce
       </h1>
 
       <img

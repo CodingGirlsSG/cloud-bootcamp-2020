@@ -22,7 +22,7 @@ Cell.propTypes = {
 
 const Summary = () => (
   <>
-    <Container fluid className="px-0 py-5" id="about">
+    <Container fluid className="px-0 py-5 bg-white" id="about">
       <Row className="m-3 p-5 justify-content-center">
         <Col sm={12} md={8} className="d-flex flex-column align-self-center">
           <h2 className="text-center" >A guided learning programme,<br />developed with Google</h2>

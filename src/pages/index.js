@@ -11,6 +11,7 @@ import Schedule from "./schedule"
 import Activites from "./activities"
 import Mentors from "./mentors"
 import Applynow from "./applynow"
+import Faq from "./Faq"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Landing Page" }}>
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <Schedule />
     <Mentors />
     <Applynow />
+    <Faq />
   </Layout>
 )
 

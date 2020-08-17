@@ -38,7 +38,7 @@ const Schedule = () => (
       <Row className="m-3 justify-content-center">
         <Col sm={12} md={8} className="d-flex flex-column">
           <h2 className="mb-4 text-center">Full Schedule</h2>
-          <b className="mb-4 text-center"><i>8 weeks programme</i></b>
+          <b className="mb-5 text-center"><i>8 weeks programme</i></b>
           <TimeItem week="0" details="Kickstart Session" />
           <TimeItem week="1" details="Google Cloud Platform Fundamentals: Core Infrastructure" />
           <TimeItem week="2-3" details="Essential Google Cloud Infrastructure: Core Services" />

@@ -1,6 +1,6 @@
-import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
-import Correct from "../images/correct.svg"
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Correct from "../images/correct.svg";
 
 const Mentors = () => (
   <Container fluid className="px-0 py-5" id="mentorsbg">
