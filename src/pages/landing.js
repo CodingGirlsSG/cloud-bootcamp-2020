@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import DownArrow from "../images/down-arrow.svg";
 
-const LandingBanner = () => (
+const Landing = () => (
   <>
     <Container fluid className="px-0 d-flex align-items-center" id="landing-container">
       <div id="landingbg" />
@@ -28,4 +28,4 @@ const LandingBanner = () => (
   </>
 )
 
-export default LandingBanner;
+export default Landing;

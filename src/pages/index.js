@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import LandingBanner from "./landingBanner"
+import Landing from "./landing"
 import Summary from "./summary"
 import Prerequisites from "./prerequisites"
 import WhyCloud from "./whycloud"
@@ -11,7 +11,7 @@ import Schedule from "./schedule"
 import Activites from "./activities"
 import Mentors from "./mentors"
 import Applynow from "./applynow"
-import Faq from "./Faq"
+import Faq from "./faq"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "Landing Page" }}>
