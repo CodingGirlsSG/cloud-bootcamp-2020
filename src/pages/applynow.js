@@ -1,6 +1,5 @@
-import React from "react"
-import ScriptTag from 'react-script-tag';
-import { Container, Row, Col, Button } from "react-bootstrap"
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 const Applynow = () => (
   <Container fluid className="px-0 py-5 bg-white" id="applynow">
