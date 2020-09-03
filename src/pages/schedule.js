@@ -34,7 +34,7 @@ TimeItem.propTypes = {
 
 const Schedule = () => (
   <>
-    <Container fluid className="px-0 py-5 bg-grey" id="schedule">
+    <Container fluid className="px-0 py-5 bg-white" id="schedule">
       <Row className="m-3 justify-content-center">
         <Col sm={12} md={8} className="d-flex flex-column">
           <h2 className="mb-4 text-center">Full Schedule</h2>

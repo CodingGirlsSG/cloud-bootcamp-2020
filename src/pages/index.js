@@ -18,8 +18,8 @@ const IndexPage = () => (
     <SEO title="Code with Cloud" />
     <Landing />
     <Summary />
-    <Prerequisites />
     <WhyCloud />
+    <Prerequisites />
     <Activites />
     <Schedule />
     <Mentors />

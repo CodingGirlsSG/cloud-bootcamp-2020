@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col, Button } from "react-bootstrap"
 
 const Applynow = () => (
-  <Container fluid className="px-0 py-5 bg-grey" id="applynow">
+  <Container fluid className="px-0 py-5 bg-white" id="applynow">
     <Row className="m-3 justify-content-center">
       <Col sm={12} md={8} className="d-flex flex-column align-self-center text-center">
 

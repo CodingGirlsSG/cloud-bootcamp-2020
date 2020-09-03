@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 const Schedule = () => (
   <>
-    <Container fluid className="px-0 py-5 bg-white">
+    <Container fluid className="px-0 py-5 bg-lightyellow">
       <h2 className="mb-5 text-center">Exciting Activities and Rewards</h2>
       <Row className="m-3 justify-content-center text-center">
         <Col sm={12} md={6} className="d-flex flex-column">
