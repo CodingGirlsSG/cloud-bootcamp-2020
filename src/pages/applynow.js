@@ -1,4 +1,5 @@
 import React from "react"
+import ScriptTag from 'react-script-tag';
 import { Container, Row, Col, Button } from "react-bootstrap"
 
 const Applynow = () => (
@@ -7,7 +8,10 @@ const Applynow = () => (
       <Col sm={12} md={8} className="d-flex flex-column align-self-center text-center">
 
         <Row className="my-5 justify-content-center">
-          <Button variant="outline-primary" size="lg" className="bg-white"><h2 className="mb-0">Apply Now!</h2></Button>
+          <Button variant="outline-primary" size="lg" className="bg-white typeformshare button" href="https://form.typeform.com/to/N2BXqgkb" data-mode="popup" target="_blank" rel="noreferrer">
+            <h2 className="mb-0">Apply Now!</h2>
+          </Button>
+
         </Row>
         <p className="mb-5">
           To ensure that each of the limited slots leads to a meaningful learning experience, <br />participants will need to fill in a registration form and demonstrate their basic technical knowledge by either passing a registration quiz or showing proof of completion of the Google Cloud introduction course.
