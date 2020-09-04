@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Correct from "../images/correct.svg";
 
 const Mentors = () => (
-  <Container fluid className="px-0 py-5 bg-lightyellow" id="mentorsbg">
+  <Container fluid className="px-0 py-5 bg-grey">
     <Row className="m-3 justify-content-center">
 
       <Col sm={12} md={8} className="d-flex flex-column align-self-center text-center">

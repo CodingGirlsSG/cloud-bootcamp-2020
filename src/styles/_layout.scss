@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  color: #323232;
+}
+
 div.main {
   min-height: 100vh;
   width: 100% !important;
@@ -66,10 +70,6 @@ h1 {
   h1 {
       font-size: 54px;
   }
-}
-
-h2,h3 {
-  color: $cg-blue;
 }
 
 h2 {

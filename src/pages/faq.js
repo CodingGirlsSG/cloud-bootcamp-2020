@@ -71,11 +71,11 @@ CustomCard.propTypes = {
 
 const Faq = () => (
   <>
-    <Container fluid className="px-0 py-5 bg-lightyellow">
+    <Container fluid className="px-0 py-5 bg-grey">
       <h2 className="my-5 text-center">FAQ</h2>
       <Row className="m-3 justify-content-center">
         <Col sm={12} md={8} className="d-flex flex-column">
-          <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="0" className="shadow">
             {contents.map(({ qns, ans }, index) => (
               <CustomCard
                 index={index.toString()}
