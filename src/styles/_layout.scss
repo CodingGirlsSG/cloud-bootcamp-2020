@@ -74,10 +74,12 @@ h1 {
 
 h2 {
   font-size: 38px;
+  color: black;
 }
 
 h3 {
   font-size: 32px;
+  color: black;
 }
 
 /* background settings
@@ -173,7 +175,7 @@ h3 {
 
 .timebadge {
   background-color: $cg-blue;
-  width: 86px
+  width: 120px;
 }
 
 .timeline {
@@ -182,4 +184,28 @@ h3 {
   background-size: 3px 80%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 5px solid #cfd8dc;
+  display: block;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px
+}
+
+// custom bootstrap
+.btn-primary {
+  border-color: $cg-blue;
+  background-color: $cg-blue;
+}
+
+.btn-outline-primary {
+  border-color: $cg-blue;
+  color: $cg-blue;
+}
+
+.btn-outline-primary:hover {
+  background-color: $cg-blue;
 }

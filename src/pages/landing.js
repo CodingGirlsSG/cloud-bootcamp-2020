@@ -8,13 +8,15 @@ const Landing = () => (
       <div id="landingbg" />
 
       {/* for large screens */}
+      <div className="d-none d-md-block" id="landingbg" />
       <h1 className="d-none d-md-block" id="landing-header">
-        Code With Cloud <br /><span style={{ fontSize: "36px", marginLeft: '16px' }}>- Learn the #No.1 in-demand skill in Today's Workforce</span>
+        Code With Cloud <br /><span style={{ fontSize: "36px" }}>Learn the No.1 in-demand skill in Today's Workforce</span>
       </h1>
 
       {/* for small screens */}
-      <h1 className="d-block d-md-none text-center" id="landing-header">
-        Code With Cloud -  Learn the #No.1 in-demand skill in Today's Workforce
+      <div className="d-block d-md-none bg-blue" />
+      <h1 className="d-block d-md-none text-center" style={{ fontSize: "32px" }} id="landing-header">
+        Code With Cloud <br /><span style={{ fontSize: "28px" }}>Learn the No.1 in-demand skill in Today's Workforce</span>
       </h1>
 
       <img

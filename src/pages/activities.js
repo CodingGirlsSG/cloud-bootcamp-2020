@@ -12,13 +12,16 @@ const Schedule = () => (
             <b>Virtual Learning</b> - Self-paced learning with free access to Coursera and Qwiklabs<br />
           </p>
           <p className="mb-2">
-            <b>Career Talks</b> - Gain insight from industry professionals who have made it<br />
+            <b>Training workshops</b> - by Google certified trainers to accelerate your learning process<br />
+          </p>
+          <p className="mb-2">
+            <b>Career Talks</b> - Gain insight from experienced industry professionals<br />
           </p>
           <p className="mb-2">
             <b>Mentoring</b> - Weekly mentoring session with industry professionals<br />
           </p>
           <p className="mb-2">
-            <b>Mock Interviews</b> - Level up your coding skills by practise with insider<br />
+            <b>Mock Interviews</b> - Level up your coding skills by practise with insiders<br />
           </p>
           <p className="mb-2">
             <b>Cash Reward</b> - We will reward you with cash once you get your certificate<br />

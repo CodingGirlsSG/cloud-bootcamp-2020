@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Navbar, Nav } from "react-bootstrap"
+import { Navbar, Nav, Button } from "react-bootstrap"
 import CGLogo from "../images/CG3.png"
 
 const CustomNavbar = ({ pageInfo }) => {
@@ -22,24 +22,26 @@ const CustomNavbar = ({ pageInfo }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav activeKey={pageInfo && pageInfo.pageName} className="ml-auto">
-            <Link to="#about" className="link-no-style">
+            <Link to="#about" className="link-no-style pt-1">
               <Nav.Link as="span" eventKey="about">
                 About The Program
               </Nav.Link>
             </Link>
-            <Link to="#prerequisites" className="link-no-style">
+            <Link to="#prerequisites" className="link-no-style pt-1">
               <Nav.Link as="span" eventKey="about">
                 Prerequisites
               </Nav.Link>
             </Link>
-            <Link to="#schedule" className="link-no-style">
+            <Link to="#schedule" className="link-no-style pt-1">
               <Nav.Link as="span" eventKey="background">
                 Schedule
               </Nav.Link>
             </Link>
             <Link to="#applynow" className="link-no-style">
               <Nav.Link as="span" eventKey="timeline">
-                Apply Now
+                <Button variant="outline-primary" size="sm">
+                  Apply now!
+                </Button>
               </Nav.Link>
             </Link>
           </Nav>

@@ -7,7 +7,7 @@ const WhyCloud = () => (
   <>
     <Container fluid className="px-0 py-5 bg-grey" id="whycloudbg">
       <Row className="py-5 mx-5 d-flex flex-row-reverse">
-        <ScrollAnimation animateIn="fadeInUp" className="d-flex flex-column">
+        <ScrollAnimation animateIn="fadeInUp" className="d-flex flex-column" animateOnce>
           <Col sm={12} md={6} className="p-4 align-self-end bg-grey shadow">
             <h2 className="mb-4">Why Cloud?</h2>
             <p>

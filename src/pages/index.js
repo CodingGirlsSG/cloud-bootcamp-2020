@@ -9,6 +9,7 @@ import Prerequisites from "./prerequisites";
 import WhyCloud from "./whycloud";
 import Schedule from "./schedule";
 import Activites from "./activities";
+import Trainer from "./trainer";
 import Mentors from "./mentors";
 import Applynow from "./applynow";
 import Faq from "./faq";
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <Prerequisites />
     <Activites />
     <Schedule />
+    <Trainer />
     <Mentors />
     <Applynow />
     <Faq />
