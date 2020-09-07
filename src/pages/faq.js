@@ -21,7 +21,7 @@ const contents = [
   },
   {
     qns: "Will I become Google Cloud Certified after completing this programme?",
-    ans: "No, but at the end of course, participants will be encouraged to sign up for the Google Cloud Associate Cloud Engineer Programme. Our Mentors will be guiding you throughout the process and hold group study sessions, where relevant."
+    ans: "No, but at the end of course, participants will be encouraged to sign up for the Google Cloud Associate Cloud Engineer Examination. Our Mentors will be guiding you throughout the process and hold group study sessions, where relevant."
   },
   {
     qns: "Will CodingGirls pay for my Google Cloud Certification examination?",

@@ -34,9 +34,9 @@ TimeItem.propTypes = {
 
 const Schedule = () => (
   <>
-    <Container fluid className="px-0 py-5 bg-white" id="schedule">
+    <Container fluid className="px-0 py-5 bg-white" id="schedule" >
       <Row className="m-3 justify-content-center">
-        <Col sm={12} md={6} className="d-flex flex-column">
+        <Col sm={12} md={7} className="d-flex flex-column">
           <h2 className="mb-4 text-center">Full Schedule</h2>
           <b className="text-center"><i>8 weeks programme</i></b>
 
@@ -44,7 +44,7 @@ const Schedule = () => (
           <TimeItem date="26 Sept" details="Workshop: Google Cloud Fundamentals: Core Infrastructure" />
           <TimeItem date="28 Sep - 4 Oct" details="Coursera: Essential Google Cloud Infrastructure: Foundation" />
           <TimeItem date="5 Oct - 11 Oct" details="Coursera:  Essential Google Cloud Infrastructure: Core Services" />
-          <TimeItem date="12 Oct -  18 Oct" details="Coursera: Elastic Google Cloud Infrastructure: Scaling and Automation" />
+          <TimeItem date="12 Oct - 18 Oct" details="Coursera: Elastic Google Cloud Infrastructure: Scaling and Automation" />
           <TimeItem date="19 Oct -25 Oct" details="Coursera: Preparing for the Google Cloud Associate Cloud Engineer Exam" />
 
           <TimelineHeader text="Phase 2" />
@@ -57,7 +57,7 @@ const Schedule = () => (
           <TimeItem date="6 Nov - 20 Nov" details="Mock Interview: Selected graduates to practise interview skills with insiders" />
           <TimeItem date="21 Nov" details="Closing" last />
 
-          <p className="mt-3"><i>*please note that programme schedule may be subject to change</i></p>
+          <p className="mt-4"><i>*please note that programme schedule may be subject to change</i></p>
         </Col>
       </Row >
     </Container>

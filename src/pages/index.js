@@ -24,8 +24,8 @@ const IndexPage = () => (
     <Prerequisites />
     <Activites />
     <Schedule />
-    <Trainer />
     <Mentors />
+    <Trainer />
     <Applynow />
     <Faq />
   </Layout>
