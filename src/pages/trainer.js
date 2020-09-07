@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Agilitics from "../images/aligitics logo.png";
-import Ajit from "../images/profile-Ajit Kumar Amit.png";
 
 
 const Trainer = () => (
-  <Container fluid className="px-0 py-5 bg-white">
+  <Container fluid className="px-0 py-5 bg-grey">
     <h2 className="mb-5 text-center">Training Partners</h2>
     <Row className="mx-5 px-5 justify-content-center">
       <Col sm={12} md={8} >
