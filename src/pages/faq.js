@@ -87,7 +87,7 @@ CustomCard.propTypes = {
 
 const Faq = () => (
   <>
-    <Container fluid className="px-0 py-5 bg-grey">
+    <Container fluid className="px-0 py-5 bg-white">
       <h2 className="my-5 text-center">FAQ</h2>
       <Row className="m-3 justify-content-center">
         <Col sm={12} md={8} className="d-flex flex-column">

@@ -15,7 +15,7 @@ const Avatar = ({ name, link, job, dp }) => (
 )
 
 const Mentors = () => (
-  <Container fluid className="px-0 pt-5 bg-grey">
+  <Container fluid className="px-0 pt-5 bg-white">
     <Row className="m-3 justify-content-center">
 
       <Col sm={12} md={8} className="d-flex flex-column text-center">
