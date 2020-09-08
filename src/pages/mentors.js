@@ -11,6 +11,7 @@ import Min from "../images/profile-Min Fang.jpeg";
 import Qiurong from "../images/profile-Qiurong Hu.jpeg";
 import Melody from "../images/profile-Melody Huang.jpeg";
 import Shafraz from "../images/profile-Shafraz Rahim.jpeg";
+import Thriveni from "../images/profile-Thriveni T K.jpeg";
 
 const Avatar = ({ name, link, job, dp }) => (
   <Col sm={12} md={4} className="mb-5 d-flex flex-column mb-4 align-items-center">
@@ -32,6 +33,9 @@ const Mentors = () => (
           <Avatar name="Hae Na, Noh" link="https://www.linkedin.com/in/hae-na-noh/" job="APAC Territory Account Manager, Google Cloud" dp={Hae} />
           <Avatar name="Fang Min" link="https://www.linkedin.com/in/fangmin/" job="Customer Engineering Manager, Southeast Asia, Google Cloud" dp={Min} />
           <Avatar name="Qiurong Hu" link="https://www.linkedin.com/in/qiurong-hu-893b563a/" job="Customer Engineer, Google Cloud" dp={Qiurong} />
+          <Avatar name="Thriveni T K" link="https://www.linkedin.com/in/tkthriveni" job="Cloud Computing Consultant(AWS,GCP certified)" dp={Thriveni} />
+
+
           <Avatar name="Melody Huang" link="https://www.linkedin.com/in/melody-huang/" job="Associate Cloud Consultant, Sourced Group" dp={Melody} />
           <Avatar name="Shafraz Rahim" link="https://www.linkedin.com/in/shafrazrahim/" job="Cloud Community Manager,  Google" dp={Shafraz} />
           <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner at Agilitics" dp={Ajit} />
