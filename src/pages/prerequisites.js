@@ -31,7 +31,7 @@ const Prerequisites = () => (
                 <Card.Text as="div">
                   <ul>
                     <li>Perseverance, self-learning capability, and interest in technology</li>
-                    <li>Complete the one-week introductory course, <b><i>or</i></b> pass our quiz</li>
+                    <li>Pass our technical quiz <b><i>or</i></b> complete the one-week introductory course on <a href="https://www.coursera.org/learn/gcp-fundamentals" target="_blank" rel="noreferrer">GCP fundamentals</a></li>
                     <li>Comfortable with command line</li>
                     <li>Ability to commit to the full 8 week programme, with an estimated 10-16 hours needed per week</li>
                   </ul>

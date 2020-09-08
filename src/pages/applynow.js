@@ -9,7 +9,7 @@ const Applynow = () => (
     <Row className="m-3 justify-content-center align-items-center d-flex flex-column">
       <Col sm={12} md={6} className="d-flex flex-column align-self-center text-center">
         <p>
-          Participants will need to fill in a registration form <i>and</i> demonstrate their basic technical knowledge by either passing a registration quiz or showing proof of completion of the Google Cloud introduction course.
+          Participants will need to fill in a registration form <i>and</i> demonstrate their basic technical knowledge by either passing a technical quiz or showing proof of completion of the <a href="https://www.coursera.org/learn/gcp-fundamentals" target="_blank" rel="noreferrer">Google Cloud introduction course</a> on Coursera.
         </p>
       </Col>
       {/* for large screens */}

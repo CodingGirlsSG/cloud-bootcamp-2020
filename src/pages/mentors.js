@@ -27,10 +27,6 @@ const Mentors = () => (
       <Col sm={12} md={8} className="d-flex flex-column text-center">
         <h2 className="mb-5">Mentors & Speakers</h2>
         <Row className=" justify-content-center">
-          <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner at Agilitics" dp={Ajit} />
-          <Avatar name="Hairizuan Noorazman" link="https://www.linkedin.com/in/hairizuan-noorazman/" job="DevOps Engineer at Acronis" dp={Hairizuan} />
-          <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect at Chope" dp={Arpit} />
-          <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director at Revenue Management solutions, GCP Certified" dp={George} />
           <Avatar name="Akshata Mohanty" link="https://www.linkedin.com/in/akshatamohanty/?originalSubdomain=sg" job="Full Stack Engineer at Viki, Inc." dp={Akshata} />
           <Avatar name="Anushree Paul" link="https://www.linkedin.com/in/paulanushree/" job="Field Sales - Digital Business at Google" dp={Anushree} />
           <Avatar name="Hae Na, Noh" link="https://www.linkedin.com/in/hae-na-noh/" job="APAC Territory Account Manager, Google Cloud" dp={Hae} />
@@ -38,6 +34,10 @@ const Mentors = () => (
           <Avatar name="Qiurong Hu" link="https://www.linkedin.com/in/qiurong-hu-893b563a/" job="Customer Engineer, Google Cloud" dp={Qiurong} />
           <Avatar name="Melody Huang" link="https://www.linkedin.com/in/melody-huang/" job="Associate Cloud Consultant, Sourced Group" dp={Melody} />
           <Avatar name="Shafraz Rahim" link="https://www.linkedin.com/in/shafrazrahim/" job="Cloud Community Manager,  Google" dp={Shafraz} />
+          <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner at Agilitics" dp={Ajit} />
+          <Avatar name="Hairizuan Noorazman" link="https://www.linkedin.com/in/hairizuan-noorazman/" job="DevOps Engineer at Acronis" dp={Hairizuan} />
+          <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect at Chope" dp={Arpit} />
+          <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director at Revenue Management solutions, GCP Certified" dp={George} />
         </Row>
       </Col>
     </Row>
