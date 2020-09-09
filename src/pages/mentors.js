@@ -12,6 +12,7 @@ import Qiurong from "../images/profile-Qiurong Hu.jpeg";
 import Melody from "../images/profile-Melody Huang.jpeg";
 import Shafraz from "../images/profile-Shafraz Rahim.jpeg";
 import Thriveni from "../images/profile-Thriveni T K.jpeg";
+import Weiyuan from "../images/profile-Weiyuan Liu.jpeg";
 
 const Avatar = ({ name, link, job, dp }) => (
   <Col sm={12} md={4} className="mb-5 d-flex flex-column mb-4 align-items-center">
@@ -34,14 +35,13 @@ const Mentors = () => (
           <Avatar name="Fang Min" link="https://www.linkedin.com/in/fangmin/" job="Customer Engineering Manager, Southeast Asia, Google Cloud" dp={Min} />
           <Avatar name="Qiurong Hu" link="https://www.linkedin.com/in/qiurong-hu-893b563a/" job="Customer Engineer, Google Cloud" dp={Qiurong} />
           <Avatar name="Thriveni T K" link="https://www.linkedin.com/in/tkthriveni" job="Cloud Computing Consultant(AWS,GCP certified)" dp={Thriveni} />
-
-
           <Avatar name="Melody Huang" link="https://www.linkedin.com/in/melody-huang/" job="Associate Cloud Consultant, Sourced Group" dp={Melody} />
           <Avatar name="Shafraz Rahim" link="https://www.linkedin.com/in/shafrazrahim/" job="Cloud Community Manager,  Google" dp={Shafraz} />
           <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner at Agilitics" dp={Ajit} />
           <Avatar name="Hairizuan Noorazman" link="https://www.linkedin.com/in/hairizuan-noorazman/" job="DevOps Engineer at Acronis" dp={Hairizuan} />
           <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect at Chope" dp={Arpit} />
           <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director at Revenue Management solutions, GCP Certified" dp={George} />
+          <Avatar name="Weiyuan Liu" link="https://www.linkedin.com/in/liuweiyuan/" job=" Staff Software Engineer at Hubble, Google Developer Expert" dp={Weiyuan} />
         </Row>
       </Col>
     </Row>

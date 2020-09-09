@@ -16,7 +16,7 @@ const Applynow = () => (
       <img src={ProcessflowHorizontal} width="850px" alt="process flow chart" className="d-none d-md-block mt-3 mb-5" />
 
       {/* for small screens */}
-      <img src={ProcessflowVertical} width="350px" alt="process flow chart" className="d-block d-md-none mt-3 mb-5" />
+      <img src={ProcessflowVertical} width="340px" alt="process flow chart" className="d-block d-md-none mt-3 mb-5" />
 
       <Button variant="primary" size="lg" className="px-4" href="https://form.typeform.com/to/N2BXqgkb" data-mode="popup" target="_blank" rel="noreferrer">
         <b>Apply now!</b>
