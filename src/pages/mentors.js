@@ -15,6 +15,7 @@ import Thriveni from "../images/profile-Thriveni T K.jpeg";
 import Weiyuan from "../images/profile-Weiyuan Liu.jpeg";
 import Salem from "../images/profile-Salem A.jpeg";
 import Leona from "../images/profile-Leona Teng.jpeg";
+import Jocelyn from "../images/profile-Jocelyn Agbeko.jpeg";
 
 const Avatar = ({ name, link, job, dp }) => (
   <Col sm={12} md={4} className="mb-5 d-flex flex-column mb-4 align-items-center">
@@ -31,21 +32,22 @@ const Mentors = () => (
       <Col sm={12} md={8} className="d-flex flex-column text-center">
         <h2 className="mb-5">Mentors & Speakers</h2>
         <Row className=" justify-content-center">
-          <Avatar name="Akshata Mohanty" link="https://www.linkedin.com/in/akshatamohanty/?originalSubdomain=sg" job="Full Stack Engineer at Viki, Inc." dp={Akshata} />
-          <Avatar name="Anushree Paul" link="https://www.linkedin.com/in/paulanushree/" job="Field Sales - Digital Business at Google" dp={Anushree} />
+          <Avatar name="Akshata Mohanty" link="https://www.linkedin.com/in/akshatamohanty/?originalSubdomain=sg" job="Full Stack Engineer, Viki, Inc." dp={Akshata} />
+          <Avatar name="Anushree Paul" link="https://www.linkedin.com/in/paulanushree/" job="Account Executive, Google Cloud" dp={Anushree} />
           <Avatar name="Hae Na, Noh" link="https://www.linkedin.com/in/hae-na-noh/" job="APAC Territory Account Manager, Google Cloud" dp={Hae} />
           <Avatar name="Fang Min" link="https://www.linkedin.com/in/fangmin/" job="Customer Engineering Manager, Southeast Asia, Google Cloud" dp={Min} />
           <Avatar name="Qiurong Hu" link="https://www.linkedin.com/in/qiurong-hu-893b563a/" job="Customer Engineer, Google Cloud" dp={Qiurong} />
-          <Avatar name="Thriveni T K" link="https://www.linkedin.com/in/tkthriveni" job="Cloud Computing Consultant(AWS,GCP certified)" dp={Thriveni} />
+          <Avatar name="Thriveni T K" link="https://www.linkedin.com/in/tkthriveni" job="Cloud Computing Consultant (AWS,GCP certified)" dp={Thriveni} />
           <Avatar name="Melody Huang" link="https://www.linkedin.com/in/melody-huang/" job="Associate Cloud Consultant, Sourced Group" dp={Melody} />
-          <Avatar name="Shafraz Rahim" link="https://www.linkedin.com/in/shafrazrahim/" job="Cloud Community Manager,  Google" dp={Shafraz} />
-          <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner at Agilitics" dp={Ajit} />
-          <Avatar name="Hairizuan Noorazman" link="https://www.linkedin.com/in/hairizuan-noorazman/" job="DevOps Engineer at Acronis" dp={Hairizuan} />
-          <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect at Chope" dp={Arpit} />
-          <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director at Revenue Management solutions, GCP Certified" dp={George} />
-          <Avatar name="Weiyuan Liu" link="https://www.linkedin.com/in/liuweiyuan/" job=" Staff Software Engineer at Hubble, Google Developer Expert" dp={Weiyuan} />
-          <Avatar name="Salem Amazit" link="https://www.linkedin.com/in/samazit/" job=" Consultant at Google Cloud" dp={Salem} />
-          <Avatar name="Leona Teng" link="https://www.linkedin.com/in/leona-teng-aa12aa2/?originalSubdomain=sg" job=" Technical Account Manager at Google Cloud" dp={Leona} />
+          <Avatar name="Shafraz Rahim" link="https://www.linkedin.com/in/shafrazrahim/" job="Cloud Community Manager, Google" dp={Shafraz} />
+          <Avatar name="Ajit Kumar Amit" link="https://www.linkedin.com/in/akamit/" job="Managing Partner, Agilitics" dp={Ajit} />
+          <Avatar name="Hairizuan Noorazman" link="https://www.linkedin.com/in/hairizuan-noorazman/" job="DevOps Engineer, Acronis" dp={Hairizuan} />
+          <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect, Chope" dp={Arpit} />
+          <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director, Revenue Management solutions, GCP Certified" dp={George} />
+          <Avatar name="Weiyuan Liu" link="https://www.linkedin.com/in/liuweiyuan/" job="Staff Software Engineer, Hubble, Google Developer Expert" dp={Weiyuan} />
+          <Avatar name="Salem Amazit" link="https://www.linkedin.com/in/samazit/" job="Consultant, Google Cloud" dp={Salem} />
+          <Avatar name="Leona Teng" link="https://www.linkedin.com/in/leona-teng-aa12aa2/?originalSubdomain=sg" job="Technical Account Manager, Google Cloud" dp={Leona} />
+          <Avatar name="Jocelyn Agbeko" link="https://www.linkedin.com/in/jocelynagbeko/" job="Senior Data Engineer/Data Scientist (GCP), PA Consulting (London)" dp={Jocelyn} />
         </Row>
       </Col>
     </Row>
