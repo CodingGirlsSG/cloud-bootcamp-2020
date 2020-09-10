@@ -13,6 +13,8 @@ import Melody from "../images/profile-Melody Huang.jpeg";
 import Shafraz from "../images/profile-Shafraz Rahim.jpeg";
 import Thriveni from "../images/profile-Thriveni T K.jpeg";
 import Weiyuan from "../images/profile-Weiyuan Liu.jpeg";
+import Salem from "../images/profile-Salem A.jpeg";
+import Leona from "../images/profile-Leona Teng.jpeg";
 
 const Avatar = ({ name, link, job, dp }) => (
   <Col sm={12} md={4} className="mb-5 d-flex flex-column mb-4 align-items-center">
@@ -42,6 +44,8 @@ const Mentors = () => (
           <Avatar name="Arpit Maheshwari" link="https://www.linkedin.com/in/arpit-maheshwari-70a9a718/" job="Data Architect at Chope" dp={Arpit} />
           <Avatar name="George Seah" link="https://www.linkedin.com/in/george-seah-jin-siang/" job="Director at Revenue Management solutions, GCP Certified" dp={George} />
           <Avatar name="Weiyuan Liu" link="https://www.linkedin.com/in/liuweiyuan/" job=" Staff Software Engineer at Hubble, Google Developer Expert" dp={Weiyuan} />
+          <Avatar name="Salem Amazit" link="https://www.linkedin.com/in/samazit/" job=" Consultant at Google Cloud" dp={Salem} />
+          <Avatar name="Leona Teng" link="https://www.linkedin.com/in/leona-teng-aa12aa2/?originalSubdomain=sg" job=" Technical Account Manager at Google Cloud" dp={Leona} />
         </Row>
       </Col>
     </Row>
