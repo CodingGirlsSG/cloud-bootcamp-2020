@@ -53,9 +53,9 @@ const Schedule = () => (
           <TimeItem date="2 Nov - 15 Nov" details="Exam Preparation" />
           <TimeItem date="10 Nov (TBC)" details="Breakout session:  Chat with Certified Google Cloud Associate Cloud Engineers" />
           <TimeItem date="10 Nov (TBC)" details="Talks: Machine Learning with Google Cloud" />
-          <TimeItem date="15 Nov" details="Examination Day" />
-          <TimeItem date="6 Nov - 20 Nov" details="Mock Interview: Selected graduates to practise interview skills with insiders" />
-          <TimeItem date="21 Nov" details="Closing" last />
+          <TimeItem date="21 Nov" details="Examination Day" />
+          <TimeItem date="17 Nov" details="Interview Workshop" />
+          <TimeItem date="22 Nov" details="Closing" last />
 
           <p className="mt-4"><i>*please note that programme schedule may be subject to change</i></p>
         </Col>

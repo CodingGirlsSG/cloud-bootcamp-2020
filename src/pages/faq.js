@@ -25,7 +25,7 @@ const contents = [
   },
   {
     qns: "Will CodingGirls pay for my Google Cloud Certification examination?",
-    ans: "We will reimburse participants who have successfully passed their Google Cloud Certification. 🎉"
+    ans: "We will reward participants who have successfully passed their Google Cloud Certification with e-vouchers equivalent to the examination fee amount. 🎉"
   },
   {
     qns: "Is taking the exam optional?",

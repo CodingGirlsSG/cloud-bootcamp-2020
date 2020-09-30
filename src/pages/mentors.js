@@ -16,6 +16,7 @@ import Weiyuan from "../images/profile-Weiyuan Liu.jpeg";
 import Salem from "../images/profile-Salem A.jpeg";
 import Leona from "../images/profile-Leona Teng.jpeg";
 import Jocelyn from "../images/profile-Jocelyn Agbeko.jpeg";
+import empty from "../images/empty.gif"
 
 const Avatar = ({ name, link, job, dp }) => (
   <Col sm={12} md={4} className="mb-5 d-flex flex-column mb-4 align-items-center">
@@ -48,6 +49,7 @@ const Mentors = () => (
           <Avatar name="Salem Amazit" link="https://www.linkedin.com/in/samazit/" job="Consultant, Google Cloud" dp={Salem} />
           <Avatar name="Leona Teng" link="https://www.linkedin.com/in/leona-teng-aa12aa2/?originalSubdomain=sg" job="Technical Account Manager, Google Cloud" dp={Leona} />
           <Avatar name="Jocelyn Agbeko" link="https://www.linkedin.com/in/jocelynagbeko/" job="Senior Data Engineer/Data Scientist (GCP), PA Consulting (London)" dp={Jocelyn} />
+          <Avatar name="Jan Peuker" link="https://www.linkedin.com/in/jan-peuker-2b14b169/" job="Strategic Cloud Engineer, Google" dp={empty} />
         </Row>
       </Col>
     </Row>
